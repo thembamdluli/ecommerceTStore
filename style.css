@@ -39,8 +39,8 @@ body {
     width: 100%;
 }
 
-.section-p1 {
-    margin: 40px 80px;
+.section-padding1 {
+    padding: 40px 80px;
 }
 
 .section-m1 {
@@ -129,6 +129,61 @@ body {
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .feature-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px hsla(0, 0%, 0%, 0.03);
+    border: 1px solid hsl(129, 36%, 85%);
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .feature-box:hover {
+    box-shadow: 10px 10px 54px hsla(243, 70%, 55%, 0.1);
+}
+
+#feature .feature-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feature .feature-box h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: hsl(176, 88%, 27%);
+    background-color: hsl(347, 89%, 93%);
+}
+
+#feature .feature-box:nth-child(2) h6{
+    background-color: hsl(98, 54%, 83%);
+}
+
+#feature .feature-box:nth-child(3) h6{
+    background-color: hsl(198, 56%, 88%);
+}
+
+#feature .feature-box:nth-child(4) h6{
+    background-color: hsl(67, 70%, 58%);
+}
+
+#feature .feature-box:nth-child(5) h6{
+    background-color: hsl(300, 60%, 91%);
+}
+
+#feature .feature-box:nth-child(6) h6{
+    background-color: hsl(30, 100%, 95%);
 }
 
 
