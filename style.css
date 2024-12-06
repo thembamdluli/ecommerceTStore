@@ -186,4 +186,78 @@ body {
     background-color: hsl(30, 100%, 95%);
 }
 
+#product1 {
+    text-align: center;
+}
+
+#product1 .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#product1 .product{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid hsl(129, 36%, 85%);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px hsla(0, 0%, 0%, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .product:hover {
+    box-shadow: 20px 20px 30px hsla(0, 0%, 0%, 0.06);
+
+}
+
+#product1 .product img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .product .description {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .product .description span {
+    color: hsl(0, 0%, 19%);
+    font-size: 12px;
+}
+
+#product1 .product .description h5 {
+    padding-top: 7px;
+    color: hsl(0, 0%, 10%);
+    font-size: 14px;
+}
+
+#product1 .product .description i {
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+#product1 .product .description h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(176, 88%, 27%);
+}
+
+#product1 .product .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: hsl(129, 44%, 94%);
+    color: hsl(176, 88%, 27%);
+    border: 1px solid hsl(129, 36%, 85%);
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
 
