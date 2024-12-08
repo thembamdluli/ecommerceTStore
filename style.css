@@ -406,3 +406,55 @@ button.white {
 #banner3 .banner-box3 {
     background-image: url("images/banner6.jpg");
 }
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(images/banner7.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: hsl(215, 89%, 14%);
+}
+
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+#newsletter p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+
+#newsletter p span {
+    color: #ffbd27;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.15em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    background-color: hsl(176, 88%, 27%);
+    color: hsl(0, 0%, 100%);
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
