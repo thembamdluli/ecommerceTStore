@@ -122,6 +122,15 @@ button.white {
     left: 20px;
 }
 
+#mobile {
+    display: none;
+    align-items: center;
+}
+
+#close {
+    display: none;
+}
+
 /* Home Page */
 #hero {
     background-image: url(images/hero-main.png);
@@ -519,4 +528,57 @@ footer .install img {
  footer .copyright {
     width: 100%;
     text-align: center ;
+ }
+
+ /* Media Query*/
+ @media (max-width:799px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: hsl(229, 40%, 92%);
+        box-shadow: 0 40px 60px hsla(0, 0%, 0%, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    #navbar.active {
+        right: 0px;
+
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: hsl(0, 0%, 10%);
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #lg-bag {
+        display: none;
+    }
  }
